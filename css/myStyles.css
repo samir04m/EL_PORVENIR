@@ -29,3 +29,16 @@ main {
 .bg-color-a { background-color: #4FD833 !important; }
 .bg-color-b { background-color: #C2C5CA !important; }
 .bg-color-c { background-color: #2A2A28 !important; }
+
+.card-inmueble span.card-title {
+	font-size: 18px;
+	line-height: 1.2 !important;
+}
+
+.card-inmueble .card-content {
+	padding: 15px;
+}
+.card-inmueble {
+	font-size: 15px;
+	font-weight: 400;
+}
