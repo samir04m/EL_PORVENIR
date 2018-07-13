@@ -17,3 +17,15 @@ main {
 /* .card-panel {
 	border-radius: 10px;
 } */
+
+.brand-logo img {
+	margin-top: 5px;
+	height: 50px;
+}
+
+.color-a { color: #4FD833 !important; }
+.color-b { color: #C2C5CA !important; }
+.color-c { color: #2A2A28 !important; }
+.bg-color-a { background-color: #4FD833 !important; }
+.bg-color-b { background-color: #C2C5CA !important; }
+.bg-color-c { background-color: #2A2A28 !important; }

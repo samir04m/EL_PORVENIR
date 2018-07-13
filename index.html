@@ -12,6 +12,62 @@
 </head>
 <body>
 
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Casas</a></li>
+        <li><a href="#!">Apartamentos</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Ver Todos</a></li>
+        <!-- <li><a href="#!">three</a></li> -->
+    </ul>
+
+    <nav>
+        <div class="nav-wrapper green accent-6">
+            <div class="container">
+                <a href="#" class="brand-logo " style="margin-left: 20px;">
+                    <img src="images/logo.png" alt="logo" class="responsive-img">
+                    <span class="right" style="margin-left:10px;">EL PORVENIR</span>
+                    <!-- <i class="material-icons">cloud</i>Logo -->
+                </a>
+
+                <a href="#" data-activates="mobile" class="button-collapse">
+                    <i class="fas fa-bars fa-lg"></i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#!">INICIO</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">
+                        INMUEBLES <i class="fas fa-angle-down"></i>
+                    </a></li>
+                    <li><a href="#!">QUIENES SOMOS</a></li>
+                    <li><a href="#!">CONTÁCTANOS</a></li>
+
+                </ul>
+                <ul class="side-nav" id="mobile">
+                    <li><a href="#!">INICIO</a></li>
+                    <li class="">
+                        <ul class="collapsible collapsible-accordion">
+                            <li>
+                                <a class="collapsible-header">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INMUEBLES <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="collapsible-body black-text">
+                                    <ul>
+                                        <li><a href="#!">&nbsp;&nbsp; Casas</a></li>
+                                        <li><a href="#!">&nbsp;&nbsp; Apartamentos</a></li>
+                                        <li><a href="#!">&nbsp;&nbsp; Ver Todos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#!">QUIENES SOMOS</a></li>
+                    <li><a href="#!">CONTÁCTANOS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/myScript.js"></script>
