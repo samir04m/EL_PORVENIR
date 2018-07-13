@@ -16,4 +16,13 @@ $(document).ready(function(){
     $('.modal').modal();
     $('select').material_select();
 
+    // $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 1000
+    });
+
+    $('.materialboxed').materialbox();
+
 });

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - EL PORVENIR</title>
+
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/myStyles.css">
+    <link rel="stylesheet" href="../css/material-icons.css">
+    <script type="text/javascript" src="../js/fontawesome-all.js"></script>
+
+
+    <style>
+        body {
+            background-image: url("../images/swirl_pattern.png");
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="listado.html">Casas</a></li>
+        <li><a href="listado.html">Apartamentos</a></li>
+        <li class="divider"></li>
+        <li><a href="listado.html">Ver Todos</a></li>
+        <!-- <li><a href="#!">three</a></li> -->
+    </ul>
+    <ul class="side-nav" id="mobile">
+        <li><a href="../index.html">INICIO</a></li>
+        <li class="">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INMUEBLES <i class="fas fa-angle-down"></i>
+                    </a>
+                    <div class="collapsible-body black-text">
+                        <ul>
+                            <li><a href="listado.html">&nbsp;&nbsp; Casas</a></li>
+                            <li><a href="listado.html">&nbsp;&nbsp; Apartamentos</a></li>
+                            <li><a href="listado.html">&nbsp;&nbsp; Ver Todos</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><a href="info.html">QUIENES SOMOS</a></li>
+         <li><a class="modal-trigger" href="#modal-contacto">CONTÁCTANOS</a></li>
+    </ul>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper green accent-6">
+                <div class="container">
+                    <a href="#" class="brand-logo" style="margin-left: 20px;">
+                        <img src="../images/logo.png" alt="logo" class="responsive-img">
+                        <span class="right hide-on-small-only" style="margin-left:10px;">EL PORVENIR</span>
+                        <!-- <i class="material-icons">cloud</i>Logo -->
+                    </a>
+
+                    <a href="#" data-activates="mobile" class="button-collapse">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">
+                            INMUEBLES <i class="fas fa-angle-down"></i>
+                        </a></li>
+                        <li><a href="info.html">QUIENES SOMOS</a></li>
+                         <li><a class="modal-trigger" href="#modal-contacto">CONTÁCTANOS</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col s12 m8">
+                <div class="carousel carousel-slider">
+                    <a class="carousel-item" href="#one!"><img class="materialboxed responsive-img" src="../images/a1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="../images/a2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="../images/a3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="../images/a4.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="../images/a5.jpg"></a>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card-panel z-depth-3 grey lighten-3">
+                    <big>
+                        <b>Tipo:</b> Apartamento<br>
+                        <b>Direccion:</b> Cll 01 # 01 - 1 <br>
+                        <b>Barrio:</b> Barrio 1<br>
+                        <b>Ciudad:</b> Santa Marta<br>
+                        <b>Amoblado:</b> Si<br>
+                        <b>Cuartos:</b> 3<br>
+                        <b>Baños:</b> 2<br>
+                        <b>En:</b> Arriendo<br>
+                        <b>Precio:</b> $660.000 al mes<br>
+
+                    </big>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <footer class="page-footer green accent-6">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="white-text">EL PORVENIR</h5>
+                    <p class="grey-text text-lighten-4">Breve informacion. <br>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, error? </p>
+                </div>
+                <div class="col s12 offset-m1 m5">
+                    <h5 class="white-text">Contácto</h5>
+                    <big>
+                        <span class="white-text">
+                            <i class="fas fa-phone fa-2x"></i> +57 3012344567 <br>
+                            <i class="far fa-envelope fa-2x"></i> correo@elporvenir.com <br>
+                            <i class="fab fa-instagram fa-2x"></i> @el_porvenir
+                        </span>
+                    </big>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                Todos los derechos reservados © 2018 Copyright
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-contacto" class="modal">
+        <div class="modal-content">
+            <h5>Información de Contácto</h5>
+            <big>
+                <div style="padding-left:20px; line-height:3;">
+                    <i class="fas fa-phone fa-2x"></i> +57 3012344567 <br>
+                    <i class="far fa-envelope fa-2x"></i> correo@elporvenir.com <br>
+                    <i class="fab fa-instagram fa-2x"></i> @el_porvenir
+                </div>
+            </big>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.js"></script>
+    <script type="text/javascript" src="../js/myScript.js"></script>
+</body>
+</html>
