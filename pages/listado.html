@@ -71,10 +71,10 @@
         </nav>
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> -->
         <br>
         <div class="row">
-            <div class="col s12 m8">
+            <div class="col s12 offset-m1 m7">
                 <big>Se han encontrado 4 resultados.</big>
                 <div class="row">
                     <div class="col s12 m6">
@@ -213,30 +213,58 @@
             <div class="col s12 m4">
                 <div class="card-panel z-depth-3 grey lighten-3" style="padding:10px;">
                     <center><big>Filtrar resultados</big></center><br>
+                    Ubicacación: <br>
+                    <div style="padding-left: 10px;">
+                        <div class="input-field col s12 m6">
+                            <select>
+                                <option value="" disabled selected>Departamento</option>
+                                <option value="1">Magdalena</option>
+                                <!-- <option value="2">Cienaga</<optio></optio>n> -->
+                                <option value="3">Otra</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <select>
+                                <option value="" disabled selected>Ciudad</option>
+                                <option value="1">Santa Marta</option>
+                                <option value="2">Cienaga</option>
+                                <option value="3">Otra</option>
+                            </select>
+                        </div>
+                    </div>
                     Tipo de Inmueble: <br>
                     <div style="padding-left: 10px;">
-                        <p>
-                            <input class="with-gap" name="group1" type="radio" id="test3" />
-                            <label for="test3">Casa</label>
-                        </p>
-                        <p>
-                            <input class="with-gap" name="group1" type="radio" id="test4" />
-                            <label for="test4">Apartamento</label>
-                        </p>
+                        <div class="input-field col s12 m6">
+                            <select>
+                                <option value="" disabled selected>Tipo</option>
+                                <option value="1">Apartamento</option>
+                                <option value="2">Casa</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field col s12 m6">
+                            <select>
+                                <option value="" disabled selected>Servicio</option>
+                                <option value="1">Venta</option>
+                                <option value="2">Arriendo</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </div>
                     </div>
                     Caracteristicas:
                     <div style="padding-left: 15px;">
-                        <div class="input-field">
+                        <div class="input-field col s12 m6">
                             <select>
-                                <option value="" disabled selected>Número de Cuartos</option>
+                                <option value="" disabled selected>Cuartos</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
                         </div>
-                        <div class="input-field">
+                        <div class="input-field col s12 m6">
                             <select>
-                                <option value="" disabled selected>Número de Baños</option>
+                                <option value="" disabled selected>Baños</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -254,7 +282,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 
     <br>
     <footer class="page-footer bg-color-a">

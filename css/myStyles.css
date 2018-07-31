@@ -55,3 +55,14 @@ main {
 	font-size: 15px;
 	font-weight: 400;
 }
+
+
+/* ========================== GENERALIZADOR ========================00 */
+.full-w { width: 100% !important; }
+.b-p-5 { padding-bottom: 0; }
+.b-m-10 { margin-bottom: 10px; }
+.tb-p-10 {
+	padding-top: 10px !important;;
+	padding-bottom: 10px !important;;
+
+}
