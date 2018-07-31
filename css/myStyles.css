@@ -30,6 +30,19 @@ main {
 .bg-color-b { background-color: #C2C5CA !important; }
 .bg-color-c { background-color: #2A2A28 !important; }
 
+.dropdown-content > li > a {
+	color: #2A2A28;
+}
+
+.nav-wrapper ul li a {
+	color: #2A2A28;
+}
+
+.btn {
+	background-color: #4FD833 !important;
+	/* color: #2A2A28; */
+}
+
 .card-inmueble span.card-title {
 	font-size: 18px;
 	line-height: 1.2 !important;
